@@ -1,0 +1,23 @@
+[ 20230803 AM 11:30 ]
+ 1. 페이지에 다운로드할 수 있는 PDF 파일이 없어서, 다운로드 URL과 reportId값이 없어서 오류가 남
+   - try-except 처리
+     - 다운로드할 수 있는 PDF파일이 없으면 pdfUrl과 reportId에 None이 저장되도록 수정)
+ 2. 종목분석, 산업분석: 다른 리서치 카테고리와는 달리, table의 column(= <td>)중 항목이 하나 더 있어서 오류가 남
+   - extract_basic_info에서 tr을 분석하는 항목을 따로 함수로 추출 후 카테고리의 table구조에 맞게 수정
+     - 종목분석, 산업분석: get_list_info_v2
+     - 나머지: get_list_info_v1
+ 3. try - except 수정
+   - 로그 보면서 불편했던 점 수정
+  1) 기존 - 테이블의 한 tr에서 error가 나면 모든 table skip됨
+      수정 - 각 tr마다 개별로 try-except 적용
+  2) 기존 - error난 위치를 보기 어려웠음
+      수정 - error난 곳의 tr정보, page url정보 등도 나타나게 추가
+
+[ 20230804 PM 16:30 ]
+1. DB 연결 후 insert
+2. AWS s3에 pdf파일 업로드 기능 추가
+
+[ 20230809 PM 15:26 ]
+1. 멀티쓰레드 위치 조정
+2. summary관련 인코딩 문제 및 summary 오류 수정
+3. 모든 과정 테스트 완료

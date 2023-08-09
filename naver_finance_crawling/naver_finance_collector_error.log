@@ -1,0 +1,20 @@
+2023-08-09 16:05:04,191 [naver_finance_collector] [ERROR] [naver_finance_collector_utils.py:65] - 기본정보 추출 실패
+Error: 'NoneType' object has no attribute 'select_one'
+2023-08-09 16:05:04,191 [naver_finance_collector] [ERROR] [naver_finance_collector_utils.py:283] - detailPage 파싱 실패
+Error: 'NoneType' object is not subscriptable
+2023-08-09 16:05:30,692 [naver_finance_collector] [ERROR] [naver_finance_collector_utils.py:65] - 기본정보 추출 실패
+Error: 'NoneType' object has no attribute 'select_one'
+2023-08-09 16:05:30,692 [naver_finance_collector] [ERROR] [naver_finance_collector_utils.py:283] - detailPage 파싱 실패
+Error: 'NoneType' object is not subscriptable
+2023-08-09 16:12:26,587 [naver_finance_collector] [ERROR] [naver_finance_collector_utils.py:168] - PDF FILE non exist error: 
+PDF PAGE URL::: https://finance.naver.com/research/company_read.naver?nid=65857&page=43
+2023-08-09 16:12:49,233 [naver_finance_collector] [ERROR] [naver_finance_collector_utils.py:168] - PDF FILE non exist error: 
+PDF PAGE URL::: https://finance.naver.com/research/company_read.naver?nid=65591&page=52
+2023-08-09 16:14:34,052 [naver_finance_collector] [ERROR] [naver_finance_collector_utils.py:168] - PDF FILE non exist error: 
+PDF PAGE URL::: https://finance.naver.com/research/company_read.naver?nid=64576&page=85
+2023-08-09 16:14:34,111 [naver_finance_collector] [ERROR] [naver_finance_collector_utils.py:168] - PDF FILE non exist error: 
+PDF PAGE URL::: https://finance.naver.com/research/company_read.naver?nid=64575&page=85
+2023-08-09 16:15:17,461 [naver_finance_collector] [ERROR] [naver_finance_collector_utils.py:168] - PDF FILE non exist error: 
+PDF PAGE URL::: https://finance.naver.com/research/company_read.naver?nid=64125&page=100
+2023-08-09 16:19:12,265 [naver_finance_collector] [ERROR] [naver_finance_collector_utils.py:168] - PDF FILE non exist error: 
+PDF PAGE URL::: https://finance.naver.com/research/company_read.naver?nid=61809&page=177
